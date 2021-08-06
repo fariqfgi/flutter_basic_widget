@@ -23,7 +23,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        body: Text("Flutter Basic Widget"),
+        body: SafeArea(
+          child: Text("Flutter Basic Widget"),
+        ),
       ),
     );
   }
