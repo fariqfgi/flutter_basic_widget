@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basic_widget/font_style.dart';
 
 void main() {
   runApp(MyApp());
@@ -29,8 +30,14 @@ class MyApp extends StatelessWidget {
                   image: AssetImage('assets/images/ic_payment.png'),
                   height: 200,
                 ),
-                Text('Rich Together'),
-                Text('Save your money little bit and we will help to be rich.'),
+                Text(
+                  'Rich Together',
+                  style: mainHeader,
+                ),
+                Text(
+                  'Save your money little bit and we will help to be rich.',
+                  style: subHeader,
+                ),
               ],
             ),
           ),
