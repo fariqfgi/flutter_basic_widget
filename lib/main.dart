@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basic_widget/custom_colors.dart';
 import 'package:flutter_basic_widget/font_style.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Cashy"),
-          backgroundColor: Colors.blueAccent,
+          backgroundColor: darkBlue,
         ),
         body: SafeArea(
           child: Container(
