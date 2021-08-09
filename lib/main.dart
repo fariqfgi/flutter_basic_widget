@@ -17,7 +17,14 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Cashy"),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.blueAccent,
+          actions: <Widget>[
+            IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.mail),
+              color: Colors.yellowAccent,
+            ),
+          ],
         ),
         body: SafeArea(
           child: Text("Flutter Basic Widget"),
