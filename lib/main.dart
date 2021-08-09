@@ -27,7 +27,10 @@ class MyApp extends StatelessWidget {
           ],
         ),
         body: SafeArea(
-          child: Text("Flutter Basic Widget"),
+          child: Image(
+            image: AssetImage('assets/images/ic_payment.png'),
+            height: 200,
+          ),
         ),
       ),
     );
